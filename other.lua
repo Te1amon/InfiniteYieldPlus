@@ -1,3 +1,5 @@
+-- hi
+-- made by te1amon
 if IY_LOADED and not _G.IY_DEBUG == true then
 	error("Infinite Yield is already running!",0)
 	return
@@ -4779,7 +4781,7 @@ CMDs[#CMDs + 1] = {NAME = 'grippos [X Y Z]', DESC = 'Changes your current tools 
 CMDs[#CMDs + 1] = {NAME = 'usetools [ammount] [delay]', DESC = 'Activates all tools in your backpack at the same time'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'truesight', DESC = 'Allows you to see invisible parts/baseparts'}
-CMDs[#CMDs + 1] = {NAME = 'vclip', DESC = 'Changes your character's position on the y axis'}
+CMDs[#CMDs + 1] = {NAME = 'vclip', DESC = 'Changes your characters position on the y axis'}
 CMDs[#CMDs + 1] = {NAME = 'addalias [cmd] [alias]', DESC = 'Adds an alias to a command'}
 CMDs[#CMDs + 1] = {NAME = 'removealias [alias]', DESC = 'Removes a custom alias'}
 CMDs[#CMDs + 1] = {NAME = 'clraliases', DESC = 'Removes all custom aliases'}
@@ -8950,7 +8952,6 @@ game.Players.LocalPlayer.Character.Jump = true
 else
 -- a
 end
-		end
 	until hopping == false
 end)
 
